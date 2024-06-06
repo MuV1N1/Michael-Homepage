@@ -1,4 +1,5 @@
 #root {
+  width: 100%;
   max-width: 100%;
 }
 .flex{
@@ -23,7 +24,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #33333359;
+  background-color: #33333396;
 }
 .nal{
   float: left;
@@ -44,14 +45,12 @@
   background-color: #111111;
 }
 
-#s1{
-background-color: #000;
-}
-#s2{
-  background-color: #fff;
-  color: black;
-}
 .start-img{
   height: auto;
   width: 100%;
+  border: 1px solid green 
+}
+.mg-l{
+ width: 50%;
+ border: 2px solid black;
 }

@@ -1,30 +1,31 @@
-import { useState } from 'react'
 import './App.css'
 
 function App() {
 
+//Navlist order right to left!!!
+
   return (
     <>
-      <div class="nav">
+      <div className="nav">
         <ul>
-          <li class="nal"><a href=""><i class="fa-solid fa-music"></i></a></li>
-          <li class="nar"><a href="start-section">test</a></li>
-          <li class="nar"><a href="s2">test</a></li>
-          <li class="nar"><a href="s3">test</a></li>
-          <li class="nar"><a href="s4">test</a></li>
+          <li className="nal"><a href="start-section"><i className="fa-solid fa-music"></i></a></li>
+          <li className="nar"><a href="">test</a></li>
+          <li className="nar"><a href="">test</a></li>
+          <li className="nar"><a href="">test</a></li>
+          <li className="nar"><a href="start-section">Home</a></li>
 
         </ul>
       </div>
       <div>
         <section id="start-section">
-          <div id="card-image"><img class="start-img" src="/MichaelKarte.jpg"></img></div>
-          <div class="flex">
-            <h3>TEST</h3>
-          </div>
+          <div id="card-image"><img className="start-img" src="/MichaelKarte.jpg"></img></div>
+          <div className="text-start">
+            <p className="flex mg-l"><h3>Moin, oder wie man im Norden sagt</h3>ICh bin saidhaishdabdakj bksb kabkbasdk baksdba kbd akjdb kajbdk ajbdskaj bdkkabskdbakdbakdsbakdbskabdak dbakbd askbdakbd kabd kabd kdb ICh code die gesammte website für den DJ Michael deswegen uch die domain <a href="http://www.djmichap.de">Ich bin DJ Michael Pietryga auch Micha gennant</a></p>
+           </div>
         </section>
-        <section id="s2" class="flex"><p>Test</p></section>
-        <section  id="s3" class="flex"><p>Test</p></section>
-        <section id="s4" class="flex"><p>Test</p></section>
+        <section id="home-section" className="flex"><p>Test</p></section>
+        <section id="s3" className="flex"><p>Test</p></section>
+        <section id="s4" className="flex"><p>Test</p></section>
       </div>
     </>
   )
