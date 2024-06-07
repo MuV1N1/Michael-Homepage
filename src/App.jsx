@@ -6,6 +6,8 @@ function App() {
 
   return (
     <>
+    <header id="card-image"><img className="start-img " src="/MichaelKarte.jpg"></img></header>
+
       <div className="nav">
         <ul>
           <li className="nal"><a href="start-section"><i className="fa-solid fa-music"></i></a></li>
@@ -16,17 +18,26 @@ function App() {
 
         </ul>
       </div>
-      <div>
-        <section id="start-section">
-          <div id="card-image"><img className="start-img" src="/MichaelKarte.jpg"></img></div>
-          <div className="text-start">
-            <p className="flex mg-l"><h3>Moin, oder wie man im Norden sagt</h3>ICh bin saidhaishdabdakj bksb kabkbasdk baksdba kbd akjdb kajbdk ajbdskaj bdkkabskdbakdbakdsbakdbskabdak dbakbd askbdakbd kabd kabd kdb ICh code die gesammte website für den DJ Michael deswegen uch die domain <a href="http://www.djmichap.de">Ich bin DJ Michael Pietryga auch Micha gennant</a></p>
-           </div>
+          <section id="start-section">
+
+          <div className="container px-5">
+            <div className="row gx-5 alic">
+              <div className="col-lg-8">
+                <div className="p-5">
+                  <h2 className="display-4">TEST</h2>
+                  <p>s</p>
+                  <p>s</p>
+                  <p>Hallo </p>
+                  <hr></hr>
+                </div>
+              </div>
+            </div>
+          </div>
+          
         </section>
         <section id="home-section" className="flex"><p>Test</p></section>
         <section id="s3" className="flex"><p>Test</p></section>
         <section id="s4" className="flex"><p>Test</p></section>
-      </div>
     </>
   )
 }
