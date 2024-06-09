@@ -31,6 +31,9 @@ function App() {
                   <hr></hr>
                 </div>
               </div>
+              <div className="clo-lg-4">
+                <div className="p-5"><img className="img-fluid rounded-circle" src="./public/logo.png" alt="Michael"></img></div>
+              </div>
             </div>
           </div>
           
